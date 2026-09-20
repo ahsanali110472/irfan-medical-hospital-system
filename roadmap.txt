@@ -1,0 +1,15 @@
+MVP complete:
+- Backend: Auth, Users, Patients, Rooms, Bills (immutable after paid), Expenses, Reports, Daily closing at 12:00 AM.
+- Frontend: Login, Dashboard, Patients, Billing (print), Reports (PDF/Excel/Print), Users, Theme.
+- Electron: Print API, Auto-updater wiring, Builder config.
+
+Next steps:
+- Add detailed bill template branding and QR.
+- Persist daily closing reports to a collection and list/download history.
+- Add role-based UI hiding for routes/menus.
+- Add OT/xray/ultrasound quick selectors tied to `rooms`.
+- Implement auto-updater publish endpoint.
+
+
+
+
